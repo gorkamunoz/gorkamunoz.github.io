@@ -1,0 +1,59 @@
+I"«<div class="projects">
+  
+  <!-- Display categorized projects -->
+    
+      <h2 class="category">physics</h2>
+      
+      
+      <!-- Generate cards for each project -->
+      
+        <div class="grid">
+          
+            <div class="grid-item">
+  
+  <a href="/projects/1_project/">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/anomalous_background.png" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-lowercase">Anomalous Diffusion theory</h2>
+        <p class="card-text"></p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+          
+            <div class="grid-item">
+  
+  <a href="http://andi-challenge.org" target="_blank">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/banner_andi.png" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-lowercase">anomalous diffusion challenge</h2>
+        <p class="card-text"></p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+          
+        </div>
+      
+    
+
+  
+
+</div>
+:ET
