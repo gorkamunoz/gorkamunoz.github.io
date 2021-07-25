@@ -1,0 +1,43 @@
+---
+layout: about
+title: about
+permalink: /
+description:
+social: false  # includes social icons at the bottom of the page
+
+profile:
+  align: right
+  image: profile.jpg
+  address:
+
+news: false # includes a list of news items
+selected_papers: true # includes a list of papers marked as "selected={true}"
+
+---
+<div style="text-align: justify"> I'm a postdoctoral researcher at the <a href = "https://icfo.eu/lang/research/groups/groups-details?group_id=23"> Quantum Optics Theory </a> group at <a href = "https://icfo.eu/"> ICFO </a>. I got my PhD in this same group a few of months ago (<a href = "https://www.instagram.com/p/CHaoMRED5I3/"> November 2020! </a>). Before that I got a MSc in Photonics at the <a href = "https://www.upc.edu/en" > Universitat Politècnica de Catalunya </a> and BSc in Physics at the <a href = "https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html" >Universitat Autònoma de Barcelona </a>. </div>
+
+<br/><br/>
+
+#### What you will find here:
+
+A bit of everything! From my current and past research projects, teaching and outreach activities I have been involved with and other random posts on non-scientific related stuff.
+
+<br/><br/>
+
+
+#### Main areas of research
+
+**Anomalous diffusion: theory and phenomenological models**
+
+
+<div style="text-align: justify"> My <a href = "https://upcommons.upc.edu/handle/2117/335421" >PhD Thesis </a> has been devoted to the study of a particular form of motion: anomalous diffusion. We developed models, both for classical and quantum systems, with which to understand which kind of properties, both from the moving particle and the environment, lead to the appearance of such rich phenomena. </div>
+
+**Machine learning and Physics**
+
+<div style="text-align: justify">  In recent years, I have been captivated by the potential Machine Learning techniques offer to the study of Physics. We have pioneered the use of such techniques to understand anomalous diffusion and developed <a href = "www.andi-challenge.org" >the AnDI Challenge </a>, a community project to further develop the field. Moreover I have also used ML to solve complex combinatorial problems of Quantum Information and have also studied how to use Physics to enhance Machine Learning algorithms. </div>
+
+
+
+**Science beyond science**
+
+<div style="text-align: justify">  To me, Science does not end after publishing papers. In that sense, I enjoy a lot participating in projects that, while they are often based on my main areas of research, have very different outcomes. For instance, I am currently involved in the <a href = "https://nightup.icfo.eu/" > Night up </a> project, aimed at the study of light pollution via a citizen science experiment. I was also very lucky to collaborate in the creation of quantum inspired music (soon to come)! Moreover, I have participated in plenty of outreach projects both for young students and the general public, check the Teaching tab above to know more!. </div>
