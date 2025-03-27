@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Gorka  Muñoz-Gil | teaching</title>
+<title>Gorka  Muñoz-Gil | Anomalous diffusion theory</title>
 <meta name="description" content="">
 
 <!-- Open Graph -->
@@ -29,7 +29,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/teaching/">
+<link rel="canonical" href="/projects/anomalous_diffusion_theory/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -100,8 +100,6 @@
           
           
           
-          
-          
           <li class="nav-item ">
               <a class="nav-link" href="/publications/">
                 publications
@@ -111,11 +109,9 @@
           
           
           
-          <li class="nav-item active">
+          <li class="nav-item ">
               <a class="nav-link" href="/teaching/">
                 teaching
-                
-                <span class="sr-only">(current)</span>
                 
               </a>
           </li>
@@ -143,46 +139,39 @@
       <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">teaching</h1>
-    <p class="post-description">Here I gather materials for courses or workshop I imparted.</p>
+    <h1 class="post-title">Anomalous diffusion theory</h1>
+    <p class="post-description"></p>
   </header>
 
   <article>
-    <h3 id="summer-school-machine-learning-in-quantum-physics-and-chemistry">Summer School: Machine Learning in Quantum Physics and Chemistry”</h3>
-<p><em>2021, University of Warsaw (Poland)</em></p>
+    <div style="text-align: justify">
+In the early years of my research career, as a Master student in the QOT group at ICFO, I was focused on developing theoretical models to decipher anomalous diffusion. The goal of this project was to understand which may be the sources of anomalous diffusion in complex environments. We proposed three different models, each focusing on different particle-environment interactions:
+</div>
 
-<p>Fantastic <a href="https://szkoly.idub.uw.edu.pl/info/"> summer school </a> organized by Michal Tomza, Alexandre Dauphin, Ania Dawid and Maciej Lewenstein. I collaborated in the practical lectures about reinforcement learning. The notebooks I prepared in collaboration with Borj Requena can be found <a href="https://github.com/Shmoo137/SummerSchool2021_MLinQuantum/blob/master/D%20-%20Reinforcement%20Learning%20(by%20Florian%20Marquardt)/Reinforcement_learning.ipynb"> here </a>. In that same <a href="https://github.com/Shmoo137/SummerSchool2021_MLinQuantum"> repo </a> you can find the practical content of most of the school.</p>
+<p align="center">
+<img src="../../assets/img/all_phenom.png" alt="drawing" width="800" />
+</p>
 
-<h3 id="characterization-of-ergodicity-breaking-and-anomalous-diffusion-from-single-trajectories">Characterization of Ergodicity Breaking and Anomalous Diffusion from Single Trajectories</h3>
-<p><em>2021, University of Gothenburg, Virtual (Sweden)</em></p>
+<h3 id="trapping-in-crowded-environments">Trapping in crowded environments</h3>
 
-<p>This lectures were given by Dr. Carlo Manzo during the workshop <a href="http://active-matter.eu/events/initial-training-on-experimental-methods-for-active-matter/"> Initial Training on Experimental Methods for Active Matter </a>. I collaborated in both in the development of the lectures content as well as in the exercises part. You can find the latter, with a throughout explanation on simulations of anomalous diffusion in <a href="https://github.com/AnDiChallenge/first_steps_in_anomalous_diffusion"> in this repository </a>.</p>
+<div style="text-align: justify">
 
-<h3 id="python-bootcamp-bist-master">Python Bootcamp BIST Master</h3>
-<p><em>2020, BIST, Virtual, Barcelona (Spain)</em></p>
+In our <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.95.032403"> first paper </a>, we studied the diffusion of a particle (the prey) in a crowded environment (the hunters). Each time a prey hit a hunter, the former was immobilized for a certain time, drawn randomly from a probability distribution function. As we show in the paper, such model converges to a continuous time random walk (CTRW), a very well known anomalous diffusion model, able to describe a myriad of experimental observations and showing rich characteristics such as non-ergodicity, non-gaussinity and ageing!
+</div>
 
-<p>Together with <a href="https://twitter.com/BorjaRequena"> Borja Requena </a> (mainly him!), gave a introduction to Python for the <a href="https://mmres.bist.eu/"> Master of
-Multidisciplinary Research in Experimental Sciences </a>, organized by the <a href="https://bist.eu/"> Barcelona Insitute of Science and Technology (BIST) </a>. All the contents of the course can be found in <a href="https://github.com/gorkamunoz/BIST-master-python-bootcamp"> this Github repo! </a></p>
+<h3 id="diffusion-in-critical-environments">Diffusion in critical environments</h3>
 
-<h3 id="machine-learning-in-quantum-and-classical-data">Machine learning in quantum and classical data</h3>
-<p><em>2018 and 2019, UPC, Barcelona (Spain)</em></p>
+<div style="text-align: justify">
 
-<p>Co-lectured a course on quantum and classical machine learning for the <a href="https://photonics.masters.upc.edu/es"> Master in Photonics (UPC-UAB-UB-ICFO) </a>. My lectures focused on Reinforcement Learning techniques. The slides and exercises of my part of the course can be found <a href="https://github.com/gorkamunoz/QML-Course-UPC-2019"> here </a>, as well as the content on lectures about general machine learning and Boltzmann machines.</p>
+Prior to my arrival to QOT@ICFO, two big papers where released (<a href="https://journals.aps.org/prx/abstract/10.1103/PhysRevX.5.011021"> this </a> and <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.112.150603"> this </a>). There, they proposed a novel diffusion model and showed its suitability to describe the anomalous diffusion of particles in biological environments. The model considers a particle that changes its diffusion coefficient either as a function of time or position. If the distribution of coefficients and residence times follow a particular distribution, then the particle will diffuse anomaly.
 
-<h3 id="quantum-machine-learning-workshop">Quantum Machine Learning Workshop</h3>
-<p><em>2019, ICFO, Barcelona (Spain)</em></p>
+In <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.96.052140"> our paper </a> we  try to understand which kind of environments give rise to such distributions. In particular, we use an Ising model to describe the environment and show that only at criticality and for an infinite system the particule will truly show anomalous diffusion. If not, there is a transient period in which the particle diffuses anomaly, but then normal diffusion is recovered.
+</div>
+<h3 id="moving-through-partially-transmitting-boundaries">Moving through partially transmitting boundaries</h3>
 
-<p>Co-organized a practical session on Quantum Machine learning with Qiskit as part of the program of the <a href="https://www.icfo.es/calendar2?event=4386"> Corporate Liason day 2019 at ICFO </a>. We explained how easy it is to implement the quantum support vector machine. <a href="https://github.com/gorkamunoz/QSVM-Introduction"> Here </a> you will find the content of the course.</p>
-
-<h3 id="quantum-programming-with-ibm-qiskit">Quantum Programming with IBM Qiskit</h3>
-<p><em>2019, Thinktic, Logroño (Spain)</em></p>
-
-<p>Organized and taught an extended course (18 hours) on quantum machine learning implemented on the IBM library, Qiskit. The course is aimed to people with little to no knowledge on quantum physics covering the basics of Machine Learning and Quantum Physics as well as their implementation on IBM quantum computers.</p>
-
-<h3 id="bist-internatiotional-youth-summer-bootcamp">BIST Internatiotional Youth Summer Bootcamp</h3>
-<p><em>2019, BIST, Barcelona (Spain)</em></p>
-
-<p>Participated as an organizer and teacher of the ICFO branch of the <a href="https://biysc.org/"> BIYSC </a>, a two weeks summer camp for outstanding highschool students. In particular, I helped to organize the whole program and imparted lectures on simulations of quantum criptography algorithms. <a href="https://drive.google.com/file/d/1uChWqEyQAHIqrCpR5d1IyGA8dXkFaMKC/view?usp=sharing"> Here </a> is the notebook that I used to introduce how simulations can be used to study physics and <a href="https://colab.research.google.com/drive/1CNgz2V12J7d70UfEIMlNlhm3QIG-6uE6?usp=sharing"> here </a> you will the exercise I developed to understand the BB84 criptographic algorithm.</p>
+<div style="text-align: justify">
+In our <a href="https://www.frontiersin.org/articles/10.3389/fphy.2019.00031/full"> last paper </a> on the topic we studied the effect of partially transmitting boundaries and their potential to induce anomalous diffusion. The recipe is easy: a particle moves through a network of compartments of varying size, whose boundary are partially transmitting. The transmittance of the boundary is stochastic: each boundary has it's own value. In the paper, we showed that for certain distributions of compartment sizes and boundary transmittances, a particle that was originally diffusing normally will show a *macroscopic* anomalous diffusion behaviour!
+</div>
 
   </article>
 
