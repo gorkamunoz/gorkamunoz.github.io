@@ -10,7 +10,7 @@
   --global-code-bg-color: rgba(181, 9, 172, 0.05);
   --global-text-color: #000000;
   --global-text-color-light: #828282;
-  --global-theme-color: #F29105;
+  --global-theme-color: #00369f;
   --global-hover-color: #B509AC;
   --global-footer-bg-color: #424242;
   --global-footer-text-color: #e8e8e8;
@@ -351,7 +351,7 @@ footer.sticky-bottom {
   margin-bottom: 10px;
 }
 .projects h2.category {
-  color: #F29105;
+  color: #bf7202;
   border-bottom: 1px solid #e8e8e8;
   padding-top: 0.5rem;
   margin-top: 2rem;
@@ -379,7 +379,7 @@ footer.sticky-bottom {
   font-size: 1.5rem;
 }
 .publications h2.year {
-  color: #F29105;
+  color: #bf7202;
   border-top: 1px solid #e8e8e8;
   padding-top: 1rem;
   margin-top: 2rem;
